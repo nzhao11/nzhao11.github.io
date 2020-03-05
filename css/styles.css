@@ -7,18 +7,24 @@ p {
     font-size: 16px;
 }
 .img-container {
-    position: relative;
     text-align: left;
     padding-left: 20%;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 .img-rotate {
     transform: rotate(-5deg);
 }
 .titlecard {
-    position: absolute;
     padding-left: 8px;
-    padding-right: 10%;
+    padding-right: 20%;
+}
+.title-bottom {
+    position: fixed;
+    bottom: 16px;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Spartan', sans-serif;
+    font-size: 16px;
 }
 
 
