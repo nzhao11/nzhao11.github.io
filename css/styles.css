@@ -1,0 +1,24 @@
+h1 {
+    font-family: 'Permanent Marker', serif;
+    font-size: 60px;
+}
+p {
+    font-family: 'Spartan', sans-serif;
+    font-size: 16px;
+}
+.img-container {
+    position: relative;
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+.img-rotate {
+    transform: rotate(-5deg);
+}
+.titlecard {
+    position: absolute;
+    padding-left: 8px;
+    padding-right: 10%;
+}
+
+
