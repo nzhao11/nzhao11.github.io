@@ -5,7 +5,31 @@ h1 {
 p {
     font-family: 'Spartan', sans-serif;
     font-size: 16px;
+    color: #505050;
 }
+a {
+    color: #505050;
+    text-decoration-color: #2abf70;
+    text-decoration-style: bold;
+}
+a:hover {
+    color: #2abf70;
+}
+.topnav {
+    overflow: hidden;
+}
+.topnav a {
+    font-family: 'Spartan', sans-serif;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.topnav a:hover {
+    color: #2abf70;
+  }
 .img-container {
     text-align: left;
     padding-left: 20%;
@@ -20,11 +44,12 @@ p {
 }
 .title-bottom {
     position: fixed;
-    bottom: 16px;
+    bottom: 24px;
     left: 50%;
     transform: translate(-50%);
     font-family: 'Spartan', sans-serif;
     font-size: 16px;
 }
+
 
 

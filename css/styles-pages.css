@@ -2,11 +2,11 @@ body {
     line-height: 1.8;
 }
 h1 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'EB Garamond', serif;
     font-size: 48px;
 }
 h2 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'EB Garamond', serif;
     font-size: 24px;
     line-height: 2.5;
 }
@@ -22,7 +22,7 @@ p {
 }
 p.bold {
     font-weight: 1000;
-    color: darkolivegreen;
+    color: #2abf70;
 }
 .content-container {
     display: flex;
