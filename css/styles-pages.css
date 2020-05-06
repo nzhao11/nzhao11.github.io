@@ -1,42 +1,91 @@
 body {
-    line-height: 1.8;
+  line-height: 1.8;
 }
 h1 {
-    font-family: 'EB Garamond', serif;
-    font-size: 48px;
+  font-family: "EB Garamond", serif;
+  font-size: 52px;
+  padding-left: 18px;
 }
 h2 {
-    font-family: 'EB Garamond', serif;
-    font-size: 24px;
-    line-height: 2.5;
+  font-family: "EB Garamond", serif;
+  font-size: 36px;
+  line-height: 1;
 }
 h3 {
-    font-family: 'Spartan', sans-serif;
-    font-weight: bold;
-    color: #808080;
-    font-size: 16px;
+  font-family: "Spartan", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
 }
 p {
-    font-family: 'Spartan', sans-serif;
-    font-size: 16px;
+  font-family: "Spartan", sans-serif;
+  font-size: 16px;
 }
 p.bold {
-    font-weight: 1000;
-    color: #2abf70;
+  font-weight: 1000;
+  color: #2abf70;
 }
 .content-container {
-    display: flex;
-    flex-direction: column;
-    padding-left: 20%;
-    padding-right: 20%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.content-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 8px;
 }
 .img-container {
-    text-align: center;
-    vertical-align: middle;
-    background-color: #9c9a9a;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #9c9a9a;
+}
+.tile {
+  width: 44%;
+  background-color: aqua;
+  padding: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 4px;
+  margin: 8px;
+}
+.tile:hover {
+  box-shadow: 2px 8px 16px 4px rgba(0, 0, 0, 0.2);
+}
+.tile:first-child {
+  background-color: #f96f5d;
+}
+.tile:nth-child(2) {
+  background-color: #ffaa5a;
+}
+.tile:nth-child(3) {
+  background-color: #93b5c6;
 }
 img {
-    text-align: center;
-    max-width: 60%;
-    margin-top: 10px;
+  text-align: center;
+  max-width: 60%;
+  margin-top: 10px;
+}
+
+a {
+  color: #505050;
+  text-decoration-color: #2abf70;
+  text-decoration-style: bold;
+}
+a:hover {
+  color: #2abf70;
+}
+.topnav {
+  overflow: hidden;
+}
+.topnav a {
+  font-family: "Spartan", sans-serif;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.topnav a:hover {
+  color: #2abf70;
 }
