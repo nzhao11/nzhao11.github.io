@@ -4,7 +4,6 @@ body {
 h1 {
   font-family: "EB Garamond", serif;
   font-size: 52px;
-  padding-left: 18px;
 }
 h2 {
   font-family: "EB Garamond", serif;
@@ -24,7 +23,6 @@ p.bold {
   font-weight: 1000;
   color: #2abf70;
 }
-
 .content-row {
   display: flex;
   flex-direction: row;
@@ -77,6 +75,8 @@ a:hover {
   color: #2abf70;
 }
 .topnav {
+  margin: 0;
+  padding: 0;
   overflow: hidden;
 }
 .topnav a {
