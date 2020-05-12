@@ -23,6 +23,15 @@ p.bold {
   font-weight: 1000;
   color: #2abf70;
 }
+li {
+  font-size: 16px;
+  font-family: "Spartan", sans-serif;
+  line-height: 1.5;
+}
+.content-container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 .content-row {
   display: flex;
   flex-direction: row;
@@ -38,7 +47,6 @@ p.bold {
   width: 100%;
   padding: 16px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
   border-radius: 4px;
   margin: 8px;
 }
@@ -62,8 +70,8 @@ p.bold {
 }
 img {
   text-align: center;
-  max-width: 60%;
-  margin-top: 10px;
+  width: 150px;
+  margin-top: 50px;
 }
 
 a {
@@ -90,6 +98,17 @@ a:hover {
 }
 .topnav a:hover {
   color: #2abf70;
+}
+.topnav .home-icon {
+  float: right;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 8px;
+}
+.topnav .home-icon:hover {
+  background-color: #2abf70;
+  color: white;
 }
 @media only screen and (min-width: 800px) {
   .content-container {
