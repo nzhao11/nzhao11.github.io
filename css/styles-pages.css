@@ -24,10 +24,7 @@ p.bold {
   font-weight: 1000;
   color: #2abf70;
 }
-.content-container {
-  padding-left: 20%;
-  padding-right: 20%;
-}
+
 .content-row {
   display: flex;
   flex-direction: row;
@@ -40,16 +37,21 @@ p.bold {
   background-color: #9c9a9a;
 }
 .tile {
-  width: 44%;
-  background-color: aqua;
+  width: 100%;
   padding: 16px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 4px;
   margin: 8px;
 }
-.tile:hover {
-  box-shadow: 2px 8px 16px 4px rgba(0, 0, 0, 0.2);
+.tile a {
+  font-family: "Spartan", sans-serif;
+  font-size: 16px;
+  color: black;
+  text-decoration-style: bold;
+}
+.tile a:hover {
+  color: black;
 }
 .tile:first-child {
   background-color: #f96f5d;
@@ -88,4 +90,18 @@ a:hover {
 }
 .topnav a:hover {
   color: #2abf70;
+}
+@media only screen and (min-width: 800px) {
+  .content-container {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .tile {
+    width: 50%;
+    padding: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 4px;
+    margin: 8px;
+  }
 }
