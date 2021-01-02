@@ -40,11 +40,10 @@ li {
 }
 .content-intro {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
-.content-container {
-  padding-left: 10%;
-  padding-right: 10%;
+.content-container.contact {
+  padding: 0 24px 0 18px;
 }
 .content-row {
   display: flex;
@@ -111,10 +110,30 @@ a:hover {
   background-color: #2abf70;
   color: white;
 }
+.box-link {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  font-family: Spartan, san-serif;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 8px 0;
+  text-align: center;
+}
+.link-container {
+  display: flex;
+  flex-direction: column;
+}
+.box-link:hover {
+  background-color: #2abf70;
+}
 @media only screen and (min-width: 800px) {
   .content-container {
     padding-left: 20%;
     padding-right: 20%;
+  }
+  .picture {
+    width: 100%;
   }
   .tile {
     width: 50%;
@@ -123,5 +142,18 @@ a:hover {
     transition: 0.3s;
     border-radius: 4px;
     margin: 8px;
+  }
+  .content-intro {
+    flex-direction: row;
+  }
+  .link-container {
+    margin-top: 100px;
+    flex-direction: row;
+  }
+  .box-link {
+    margin-right: 16px;
+  }
+  .content-container.contact {
+    padding: 0 20%;
   }
 }
